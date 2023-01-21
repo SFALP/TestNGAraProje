@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="tests">
+
+
+    <test name="Parallel Tests 02" parallel="methods">
+        <classes>
+            <class name="tests.US_013.CheckoutTestClass"></class>
+        </classes>
+    </test>
+
+</suite>

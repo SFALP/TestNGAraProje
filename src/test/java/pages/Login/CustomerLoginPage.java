@@ -11,7 +11,7 @@ import utilities.Driver;
 
 import java.time.Duration;
 
-public class CustomerLoginPage extends BaseTestReport {
+public class CustomerLoginPage  {
 
     public CustomerLoginPage() {
 
