@@ -21,12 +21,12 @@ public class CustomerLoginPage  {
     @FindBy(xpath = "//button[text()='Join']")
     WebElement join;
 
-    @FindBy(xpath = "//button[text()='Login']")
+    @FindBy(xpath = "//button[text()='pages.Login']")
     WebElement login;
+
 
     public void customerLogin() {
 
-        Driver.getDriver().get("https://shop-pickbazar-rest.vercel.app");
             WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
 
             join.click();
@@ -35,6 +35,4 @@ public class CustomerLoginPage  {
 
 
         }
-
-
     }
