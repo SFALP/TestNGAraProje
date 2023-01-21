@@ -29,7 +29,6 @@ public class Homepage {
     @FindBy(xpath= "(//button[contains(@class,'ltr:t')])[3]")
     public WebElement discountCoupon;
 
-
     public void searchArea(){
 
         searchArea.sendKeys(ConfigReader.getProperty("aranankelime1") + Keys.ENTER);

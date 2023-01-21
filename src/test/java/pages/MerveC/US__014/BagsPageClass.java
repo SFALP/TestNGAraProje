@@ -11,7 +11,6 @@ import utilities.Driver;
 
 public class BagsPageClass {
 
-
     public BagsPageClass() {
 
         PageFactory.initElements(Driver.getDriver(), this);
